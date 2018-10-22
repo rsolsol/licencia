@@ -1,0 +1,101 @@
+a{color: #fb8a07;}
+
+/* COLOR CLARO */
+
+.data,
+.fieldgroup_result,
+.docs p:hover,
+ul.catalog_list li a,
+ul.webmap li:first-child span,
+table.table tr:nth-child(2n) td,
+.list ul li:nth-child(2n+1) a{background-color: #f2f2f2;}
+
+/* END COLOR CLARO */
+
+/* COLOR PRINCIPAL */
+
+.dnie a.link,
+ul.steps li.current span.circle span,
+.link,
+.access_links a,
+.dnie,
+.list ul li a:hover,
+th,
+ul.catalog_list li a span,
+.breadcrumbs li a:hover,
+a.btn,
+input[type="submit"].btn,
+nav ul li a:hover,
+nav ul li.sel a,
+.topbar_options a span,
+.topbar,
+ul.webmap li a:hover,
+.folder,
+ul.help_list li.sel a,
+.topbar_options li ul li a:hover{background-color: #fb8a07;}
+
+.list,
+.content_int{border-top: solid 4px #fb8a07;}
+
+.required,
+.form_box h4,
+ul.steps li.current p,
+.userbox p span,
+h2,
+.content_int h4,
+.content_int h3{color: #fb8a07;}
+
+
+footer{border-bottom: solid 8px #fb8a07;}
+
+/* END COLOR PRINCIPAL */
+
+/* COLOR OSCURO */
+
+a.btn,
+input[type="submit"].btn{
+	-webkit-box-shadow: 0 4px 0 #fb8a07;
+	-moz-box-shadow: 0 4px 0 #fb8a07;
+	box-shadow: 0 4px 0 #fbc707;
+}
+
+a.btn:active,
+input[type="submit"].btn:active{
+	-webkit-box-shadow: 0 1px 0 #fb8a07;
+	-moz-box-shadow: 0 1px 0 #fb8a07;
+	box-shadow: 0 1px 0 #fb8a07;
+}
+	
+ul.catalog_list li a:hover span,
+.folder:hover,
+.access_links a:hover,
+.dnie a.link:hover,
+a.link:hover{background-color:#fb7607;}
+
+ul.access_links{	background:url(img/bg_access_links.png) no-repeat bottom right #fb8a07;}
+
+@media screen and (max-width: 640px){.topbar_options{ background:#fb8a07;}}
+
+/* END COLOR OSCURO */
+
+/* TRANSPARENCY */
+
+.box.transparency{	
+	
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#007F64), to(#fb8a07));
+	background-image: -webkit-linear-gradient(top, #007F64, #fb8a07);
+	background-image: -moz-linear-gradient(top, #007F64, #fb8a07);
+	background-image: -o-linear-gradient(top, #007F64, #fb8a07);
+	background-image: -ms-linear-gradient(top, #007F64, #fb8a07);
+	background-image: linear-gradient(to bottom, #007F64, #fb8a07);
+	
+}
+/* FIN DE TRANSPARENCY */
+
+/* ADVERTISEMENT */
+
+.day{color:#fb8a07;}
+.month{background:#007F64;}
+.calendar_date{border-color:#007F64;}
+
+/* END ADVERTISEMENT */

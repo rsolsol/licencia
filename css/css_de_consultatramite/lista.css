@@ -1,0 +1,63 @@
+ .mock-table {
+    display: table;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin:0;
+    padding:0;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  .mock-table > * {
+    display: table-row;
+    border: 1px solid #ddd;
+    padding: 5px;
+  }
+
+  .mock-table > *:first-child {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  .mock-table > * > * {
+    display: table-cell;
+    padding: 10px;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 850px) {
+
+    .mock-table {
+      border: 0;
+    }
+
+    .mock-table > *:first-child {
+      display: none;
+    }
+
+    .mock-table > * {
+      margin-bottom: 10px;
+      display: block;
+      border-bottom: 2px solid #ddd;
+    }
+
+    .mock-table > * > * {
+      display: block;
+      text-align: right;
+      font-size: 12px;
+      border-bottom: 1px dotted #ccc;
+    }
+
+    .mock-table > * > *:last-child {
+      border-bottom: 0;
+    }
+
+    .mock-table > * > *:before {
+      content: attr(data-label);
+      float: left;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
